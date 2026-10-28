@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for the Firebase Crashlytics WeCom Alerts internal notification utility.">
+  <title>Privacy Policy | Firebase Crashlytics WeCom Alerts</title>
+  <style>
+    :root{color-scheme:light dark;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
+    body{max-width:760px;margin:0 auto;padding:48px 24px}
+    h1{font-size:2rem;line-height:1.25}h2{margin-top:2rem;font-size:1.2rem}
+    a{color:#2563eb}p,li{max-width:68ch}.note{border-left:3px solid #64748b;padding-left:14px}
+    footer{margin-top:3rem;border-top:1px solid #9ca3af;padding-top:1rem;font-size:.9rem}
+    @media(prefers-color-scheme:dark){a{color:#93c5fd}}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p><strong>Effective date:</strong> October 28, 2026</p>
+    <p>This policy describes data processing by the internal utility <strong>Firebase Crashlytics WeCom Alerts</strong> (the “Utility”).</p>
+    <h2>Purpose</h2>
+    <p>The Utility helps authorized engineering and operations personnel monitor Firebase Crashlytics alerts for an Android smart-locker application.</p>
+    <h2>Google account data accessed</h2>
+    <p>With the Google account holder's authorization, the Utility searches Gmail for Firebase Crashlytics notification messages and reads relevant message details, including sender, subject, body, date and Firebase issue links. The OAuth scope used by the current Apps Script implementation permits broader Gmail access; the Utility is designed to process only matching Crashlytics alerts.</p>
+    <h2>Other diagnostic data</h2>
+    <p>When available, the Utility reads Crashlytics issue events, which may include application versions, cabinet or device identifiers, exception messages, stack-frame locations, timestamps and other crash diagnostic metadata.</p>
+    <h2>How data is used and shared</h2>
+    <p>Relevant details are formatted into an alert and transmitted to the configured WeCom group via its robot webhook for operational troubleshooting. The WeCom service and authorized group participants receive the information included in those messages. The Utility does not sell Gmail data or use it for advertising.</p>
+    <h2>Storage and retention</h2>
+    <p>Google Apps Script properties retain limited message identifiers and processing timestamps to avoid duplicate notifications, plus configuration values necessary to operate the integration. The current automation is configured to process alert messages within a limited lookback period. Diagnostic notifications remain subject to the retention and access policies of the receiving WeCom organization; Gmail and Firebase retain their own records under their respective settings and policies.</p>
+    <h2>Security</h2>
+    <p>Access to the Apps Script project, Firebase project and WeCom group should be limited to authorized personnel. The WeCom webhook credential is stored in Apps Script properties rather than published on this website. No claim is made that transmissions or third-party storage are risk-free.</p>
+    <h2>Data requests and contact</h2>
+    <p>To request information about this Utility's data processing, access or deletion of operational records, contact <strong>ADD_YOUR_SUPPORT_EMAIL_HERE</strong>. Requests involving Gmail, Firebase or WeCom data may also require action in those services.</p>
+    <h2>Changes</h2>
+    <p>We may update this policy if the Utility's permissions, data practices or recipients change. The effective date above will be updated accordingly.</p>
+  </main>
+  <footer><p><a href="../">Back to application home page</a></p></footer>
+</body>
+</html>

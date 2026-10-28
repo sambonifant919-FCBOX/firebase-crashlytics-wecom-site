@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Firebase Crashlytics WeCom Alerts is an internal diagnostic notification utility for an Android smart locker application.">
+  <title>Firebase Crashlytics WeCom Alerts</title>
+  <style>
+    :root{color-scheme:light dark;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
+    body{max-width:760px;margin:0 auto;padding:48px 24px}
+    h1{font-size:2rem;line-height:1.25}h2{margin-top:2rem;font-size:1.2rem}
+    a{color:#2563eb}p,li{max-width:68ch}.note{border-left:3px solid #64748b;padding-left:14px}
+    footer{margin-top:3rem;border-top:1px solid #9ca3af;padding-top:1rem;font-size:.9rem}
+    @media(prefers-color-scheme:dark){a{color:#93c5fd}}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Firebase Crashlytics WeCom Alerts</h1>
+    <p class="note">An internal-use notification utility for Android smart-locker application diagnostics. This website provides information about the utility; it is not the alert processing service itself.</p>
+    <h2>What this application does</h2>
+    <p>The utility checks Crashlytics alert emails in an authorized Gmail account, optionally retrieves related event details using the Firebase Crashlytics API, and sends concise diagnostic notifications to a designated enterprise WeCom group.</p>
+    <h2>Information included in alerts</h2>
+    <p>When available, a notification may include the Android application version, cabinet identifier, exception type and description, code location, event timestamp and a link to the corresponding Firebase issue. If the Firebase API is unavailable, the utility may use alert email information instead, explicitly labeling the email time rather than treating it as the actual event time.</p>
+    <h2>Who uses it</h2>
+    <p>Access to the automation and receiving group is intended for authorized operational and engineering personnel. It is not a public consumer application and does not offer sign-in on this website.</p>
+    <h2>Privacy</h2>
+    <p>Read our <a href="./privacy/">Privacy Policy</a> for information on how Google account data and crash diagnostics are used.</p>
+  </main>
+  <footer>
+    <p>Support contact: <strong>sambonifant919@gmail.com</strong></p>
+  </footer>
+</body>
+</html>
